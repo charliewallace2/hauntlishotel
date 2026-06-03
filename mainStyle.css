@@ -34,9 +34,17 @@ div {
     justify-self: center;
 }
 
-li:hover {
-    background-color: #41121e;
-    border-radius: 15px;
+a {
+    color: #E2CCEB;
+    font-family: "Unkempt", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #a182d4;
+    text-decoration: underline;
 }
 
 /*Class CSS*/
@@ -59,6 +67,73 @@ li:hover {
 
 .top-margin {
     margin-top: 1.5rem;
+}
+
+.title-header {
+    font-size: 4rem;
+    background: #E2CCEB;
+    border-radius: 25px;
+    display: inline-block;
+    padding-inline: 2rem;
+    margin-top: 1rem;
+    color: #290811;
+}
+
+.WIP-div {
+    margin-top: 2rem;
+    color: #E2CCEB;
+}
+
+.page-info {
+    margin-top: 2rem;
+    color: white;
+    padding-inline: 20px;
+    max-width: 800px;
+}
+
+.decoration {
+    color: #E2CCEB;
+    font-size: 1.5rem;
+}
+
+.footer {
+    margin-top: 3rem;
+}
+
+.footer-deco {
+    font-size: 2rem;
+    display: inline-block;
+    margin-inline: 25px;
+}
+
+.nav-item:hover {
+    background-color: #41121e;
+    border-radius: 15px;
+}
+
+.nightmare-label {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.nightmare-info {
+    margin-top: -0.9rem;
+}
+
+.dreamer-nav {
+    margin-bottom: 10px;
+    background-color: #18070a;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 15px;
+    max-width: 90%;
+}
+
+a.dremer-nav-item {
+    font-size: 1rem;
+    margin-right: 15px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 /*ID CSS*/
@@ -93,6 +168,7 @@ li:hover {
     font-size: 1.2rem;
 }
 
+/*Screen Size CSS*/
 @media (max-width: 600px) {
     #welcome h1 {
         font-size: 3rem;
@@ -104,6 +180,14 @@ li:hover {
         display: block;
         padding-top: 0px;
         margin-top: 0px;
+    }
+
+    .smaller-title {
+        font-size: 3rem;
+    }
+
+    .footer-deco {
+        display: block;
     }
 }
 
