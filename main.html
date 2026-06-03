@@ -21,12 +21,17 @@
     <meta name='viewport' content='width=device-width, initial-scale=1' />
 
     <!--Style Sheet-->
-    <link rel="stylesheet" href="portfolioStyle.css">
+    <link rel="stylesheet" href="mainStyle.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aladin&family=Aleo:ital,wght@0,100..900;1,100..900&family=Unkempt:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to Hauntli's Hotel!</h1>
-
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
@@ -36,7 +41,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navbar-style" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 aleo-font">
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-current="page" href="main.html">Home</a>
                     </li>
@@ -69,12 +74,17 @@
             </div>
         </div>
     </nav>
+
+    <div id="welcome">
+        <p class="decoration">☆</p>
+        <h1 class="aladin-font">Welcome to Hauntli's Hotel!</h1>
+        <p class="decoration">☆</p>
+
+        <div id="title_image">
+            <img alt="Image of Hauntli's Hotel's title screen" src="[image source here]"
+                class="title-img mx-auto d-block img-fluid">
+        </div>
+    </div>
 </body>
-
-<script>
-    document.getElementById("navButton").addEventListener('click', () => {
-
-    });
-</script>
 
 </html>

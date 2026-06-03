@@ -1,0 +1,83 @@
+/*Font CSS*/
+.aladin-font {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-font {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.aleo-font {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Tag CSS*/
+body {
+    background-color: #290811;
+    color: black;
+}
+
+div {
+    justify-self: center;
+}
+
+li:hover {
+    background-color: #41121e;
+    border-radius: 15px;
+}
+
+/*Class CSS*/
+.navbar {
+    background-color: black !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+/*ID CSS*/
+#welcome {
+    text-align: center;
+    padding: 2rem 1rem 3rem;
+}
+
+#welcome h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    background: #E2CCEB;
+    border-radius: 25px;
+    padding: clamp(1rem, 2vw, 2.5rem) clamp(1.5rem, 4vw, 6rem);
+    display: inline-block;
+    color: #290811;
+    max-width: 90%;
+    line-height: 1.05;
+}
+
+#welcome .decoration {
+    font-size: clamp(2rem, 8vw, 4em);
+    display: inline;
+    color: #E2CCEB;
+}
+
+#title_image {
+    margin-top: 2rem;
+}
+
+/*Animation CSS*/
+
