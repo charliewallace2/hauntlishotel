@@ -201,6 +201,10 @@ a.dremer-nav-item {
         padding: 2rem 8rem;
     }
 
+    p {
+        font-size: 2rem;
+    }
+
     .info {
         margin-inline: 3rem;
         max-width: 800px;
