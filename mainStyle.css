@@ -1,27 +1,27 @@
 /*Font CSS*/
 .aladin-font {
-  font-family: "Aladin", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .unkempt-font {
-  font-family: "Unkempt", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Unkempt", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .unkempt-bold {
-  font-family: "Unkempt", cursive;
-  font-weight: 800;
-  font-style: normal;
+    font-family: "Unkempt", cursive;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .aleo-font {
-  font-family: "Aleo", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Tag CSS*/
@@ -52,6 +52,15 @@ li:hover {
     color: rgba(255, 255, 255, 0.55) !important;
 }
 
+.info {
+    margin-inline: 20px;
+    max-width: 700px;
+}
+
+.top-margin {
+    margin-top: 1.5rem;
+}
+
 /*ID CSS*/
 #welcome {
     text-align: center;
@@ -79,5 +88,39 @@ li:hover {
     margin-top: 2rem;
 }
 
-/*Animation CSS*/
+#introduction {
+    color: white;
+    font-size: 1.2rem;
+}
 
+@media (max-width: 600px) {
+    #welcome h1 {
+        font-size: 3rem;
+        padding-inline: 10px;
+        min-width: 100%;
+        padding-inline: 15px;
+    }
+    #welcome .decoration {
+        display: block;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #welcome {
+        padding: 3rem 2rem 4rem;
+    }
+
+    #welcome h1 {
+        font-size: 5rem;
+        padding: 2rem 8rem;
+    }
+
+    .info {
+        margin-inline: 3rem;
+        max-width: 800px;
+    }
+}
+
+/*Animation CSS*/
