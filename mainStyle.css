@@ -111,6 +111,10 @@ th {
     max-width: 800px;
 }
 
+.itemscards-info {
+    justify-self: left !important;
+}
+
 .decoration {
     color: #E2CCEB;
     font-size: 1.5rem;
