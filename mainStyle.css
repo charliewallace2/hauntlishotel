@@ -68,6 +68,10 @@ th {
     padding-top: 10px;
 }
 
+hr.section-divide {
+    opacity: 100%;
+}
+
 /*Class CSS*/
 .navbar {
     background-color: black !important;
@@ -163,6 +167,10 @@ a.dreamer-nav-item {
 
 .right-border {
     border-right: 2px solid #3d1a21;
+}
+
+.info-img {
+    border-radius: 15px;
 }
 
 /*ID CSS*/
