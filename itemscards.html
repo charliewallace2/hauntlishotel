@@ -33,7 +33,7 @@
 
 <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav id="navigation" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -80,35 +80,68 @@
         <h1 class="smaller-title title-header aladin-font">Items & Elevator Cards</h1>
     </div>
 
-    <div class="unkempt-font page-info itemscards-info">
-        <h3>Cards</h3>
-        <ul>
-            <li></li>
-        </ul>
+    <a class="fixed-link" href="#navigation">Back to Top</a>
 
-        <h3>Items</h3>
+    <div class="aleo-font page-info itemscards-info">
+        <h3>Cards</h3>
+        <p>**Certain card options have upgraded versions, which replace 
+            the original ones after floor 10. Spawn chances are not effected.</p>
         <ul>
-            <li>**Certain card options have upgraded versions, which replace the original ones after floor 10. Spawn chances are not effected.</li>
             <li>Riches</li>
                 <ul><li>+1 Moon Token per machine completion</li></ul>
             <li>[star card name]</li>
                 <ul><li>x2 Stars per cluster for 3 floors</li></ul>
-                <ul><li>Upgrade: 5 floors</li></ul>
+                <ul><ul><li>Upgrade: 5 floors</li></ul></ul>
             <li>[heal card name]</li>
                 <ul><li>Heal all Dreamers by 5 HP</li></ul>
-                <ul><li>Upgrade: 10 HP</li></ul>
+                <ul><ul><li>Upgrade: 10 HP</li></ul></ul>
             <li>[ability cooldown card name]</li>
                 <ul><li>Reduce ability cooldown by 2 seconds</li></ul>
-                <ul><li>Upgrade: 5 seconds</li></ul>
+                <ul><ul><li>Upgrade: 5 seconds</li></ul></ul>
             <li>[skill check card name]</li>
                 <ul><li>Increase skill check time window by 2 seconds</li></ul>
-                <ul><li>Upgrade: 3 seconds</li></ul>
+                <ul><ul><li>Upgrade: 3 seconds</li></ul></ul>
                 <ul><li>Note: Only shows up once for each version. This means 
                     that the skill check window can only ever be 5 seconds 
                     longer, unless increased by an ability or a Silver dish.</li></ul>
             <li>Persuasion</li>
                     <ul><li>Increase the rarity of items sold in Hautli's Shop</li></ul>
         </ul>
+
+        <h3>Items</h3>
+        <ul>
+            <li>Star Glyph</li>
+                <ul><li>Heal 15HP</li></ul>
+            <li>Sun Glyph</li>
+                <ul><li>Heal 30HP</li></ul>
+            <li>["stat"] Glyph</li>
+                <ul><li>+20% boost to given stat</li></ul>
+            <li>Mystery Glyph</li>
+                <ul><li>+30% boost to random stat</li></ul>
+            <li>Alarm Clock</li>
+                <ul><li>Drop stealth to zero and attract nearby Nightmares</li></ul>
+            <li>Glass of Warm Milk</li>
+                <ul><li>Reduce ability cooldown by 10s</li></ul>
+            <li>Cup of Tea</li>
+                <ul><li>Reset ability cooldown</li></ul>
+            <li>Plush Pillow</li>
+                <ul><li>Recover 50% of total stamina</li></ul>
+            <li>Cozy Quilt</li>
+                <ul><li>Recover 50% of total sanity</li></ul>
+            <li>Melatonin Bomb (x2)</li>
+                <ul><li>Drop a bomb that will slow down the Nightmare that touches it</li></ul>
+            <li>Fresh Soap</li>
+                <ul><li>Increase sprint speed by 5% for 20s</li></ul>
+            <li>Clean Towel</li>
+                <ul><li>Increase stealth by 5% for 20s</li></ul>
+            <li>USB Stick</li>
+                <ul><li>Instantly complete a drill</li></ul>
+            <li>Purified Crystal</li>
+                <ul><li>Heal all Dreamers by 10HP</li></ul>
+            <li id="golden_fleece">Golden Fleece</li>
+                <ul><li>+50% to stat of choice (see <a class="inline-link" href="events.html#golden_ram">The Golden Ram floor event</a> for more information)</li></ul>
+        </ul>
+        
     </div>
         
     <div class="footer">

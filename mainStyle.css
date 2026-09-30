@@ -21,7 +21,7 @@
 .aleo-font {
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 325;
     font-style: normal;
 }
 
@@ -36,6 +36,7 @@ div {
 }
 
 a {
+    text-decoration: none;
     color: #E2CCEB;
     font-family: "Unkempt", cursive;
     font-weight: 800;
@@ -43,9 +44,23 @@ a {
     font-size: 1.2rem;
 }
 
-a:hover {
-    color: #a182d4;
-    text-decoration: underline;
+a.jump-to-list:hover {
+    text-decoration: none;
+    background-color: #E2CCEB;
+    color: #18070a;
+}
+
+a.nav-link:hover {
+    background-color: #41121e;
+    border-radius: 15px;
+}
+
+a.dreamer-nav-item:hover {
+    font-size: 1rem;
+    margin-right: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #a683b4;
 }
 
 table {
@@ -135,11 +150,6 @@ hr.section-divide {
     margin-inline: 25px;
 }
 
-.nav-item:hover {
-    background-color: #41121e;
-    border-radius: 15px;
-}
-
 .nightmare-label {
     text-decoration: underline;
     font-size: 18px;
@@ -158,7 +168,7 @@ hr.section-divide {
     max-width: 90%;
 }
 
-a.dreamer-nav-item {
+.dreamer-nav-item {
     font-size: 1rem;
     margin-right: 15px;
     font-weight: 400;
@@ -171,6 +181,42 @@ a.dreamer-nav-item {
 
 .info-img {
     border-radius: 15px;
+}
+
+.fixed-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #18070a;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.fixed-link:hover {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E2CCEB;
+    color: #18070a;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.jump-to-list {
+    text-decoration: none;
+    background-color: #18070a;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.inline-link {
+    font-size: 1rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.inline-link:hover {
+    color: #E2CCEB;
 }
 
 /*ID CSS*/
