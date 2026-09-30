@@ -219,6 +219,18 @@ hr.section-divide {
     color: #E2CCEB;
 }
 
+.margin-right {
+    margin-right: 10px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.inline {
+    display: inline;
+}
+
 /*ID CSS*/
 #welcome {
     text-align: center;
