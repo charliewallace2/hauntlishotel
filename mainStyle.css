@@ -132,7 +132,7 @@ hr.section-divide {
 }
 
 .itemscards-info {
-    justify-self: left !important;
+    align-self: left !important;
 }
 
 .decoration {
