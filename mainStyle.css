@@ -231,6 +231,11 @@ hr.section-divide {
     display: inline;
 }
 
+.top-margin-bigger {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
 /*ID CSS*/
 #welcome {
     text-align: center;
