@@ -236,6 +236,10 @@ hr.section-divide {
     margin-top: 1rem;
 }
 
+.big_link {
+    font-size: 2rem;
+}
+
 /*ID CSS*/
 #welcome {
     text-align: center;
