@@ -5,19 +5,6 @@
     font-style: normal;
 }
 
-.unkempt-font {
-    font-family: "Unkempt", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.25rem;
-}
-
-.unkempt-bold {
-    font-family: "Unkempt", cursive;
-    font-weight: 800;
-    font-style: normal;
-}
-
 .aleo-font {
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
@@ -150,11 +137,6 @@ hr.section-divide {
     margin-inline: 25px;
 }
 
-.nightmare-label {
-    text-decoration: underline;
-    font-size: 18px;
-}
-
 .nightmare-info {
     margin-top: -0.9rem;
 }
@@ -221,14 +203,6 @@ hr.section-divide {
 
 .margin-right {
     margin-right: 10px;
-}
-
-.bold {
-    font-weight: 800;
-}
-
-.inline {
-    display: inline;
 }
 
 .top-margin-bigger {
@@ -303,10 +277,6 @@ hr.section-divide {
     #welcome h1 {
         font-size: 4rem;
         padding: 2rem 8rem;
-    }
-
-    p.nightmare-label {
-        font-size: 1.5rem;
     }
 
     p, ul, a {
