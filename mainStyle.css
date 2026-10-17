@@ -53,6 +53,7 @@ a.dreamer-nav-item:hover {
 table {
     justify-self: center;
     margin-block: 1.5rem;
+    margin-inline: 10px;
     border-radius: 15px;
     background-color: #18070a;
 }
@@ -214,6 +215,33 @@ hr.section-divide {
     font-size: 2rem;
 }
 
+.dreamer-info {
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.ability-titles {
+    font-size: 1.5em;
+}
+
+.ability-table {
+    max-width: 700px;
+}
+
+.section-label {
+    font-size: 2.5em;
+    padding-top: 40px;
+}
+
+.individual-info {
+    max-width: 600px;
+    justify-self: center;
+    font-size: 1.25em;
+    padding-inline: 10px;
+}
+
 /*ID CSS*/
 #welcome {
     text-align: center;
@@ -279,7 +307,7 @@ hr.section-divide {
         padding: 2rem 8rem;
     }
 
-    p, ul, a {
+    p, ul {
         font-size: 1.3rem !important;
     }
 
