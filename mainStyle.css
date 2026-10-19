@@ -242,6 +242,11 @@ hr.section-divide {
     padding-inline: 10px;
 }
 
+.pendant-image {
+    max-width: 500px;
+    padding-top: 1rem;
+}
+
 /*ID CSS*/
 #welcome {
     text-align: center;
