@@ -75,6 +75,10 @@ hr.section-divide {
     opacity: 100%;
 }
 
+td.long-desc {
+    max-width: 650px;
+}
+
 /*Class CSS*/
 .navbar {
     background-color: black !important;
@@ -190,6 +194,7 @@ hr.section-divide {
     background-color: #18070a;
     padding: 15px;
     border-radius: 25px;
+    display: inline-block;
 }
 
 .inline-link {
