@@ -1,159 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+<!--Navigation-->
+<nav id="navigation" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-style" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 aleo-font">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="lore.html">Lore</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Dreamers</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="dreamers.html">Info</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/cali.html">Cali</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/cobalt.html">Cobalt</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/florence.html">Florence</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/nittary.html">Nittary</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/north.html">North</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/serenity.html">Serenity</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/silver.html">Silver</a></li>
+                        <li><a class="dropdown-item" href="individualsheets/wanda.html">Wanda</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nightmares.html">Nightmares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="shops.html">Lobby Shops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="run.html">In A Run</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-current="page" href="itemscards.html">Items & Elevator
+                        Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="events.html">Floor Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="mechanics.html">Future Game Mechanics</a>
+                </li>
 
-    <!--Meta Tag-->
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
-
-    <!--Style Sheet-->
-    <link rel="stylesheet" href="mainStyle.css">
-
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Aladin&family=Aleo:ital,wght@0,100..900;1,100..900&family=Unkempt:wght@400;700&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <!--Navigation-->
-    <nav id="navigation" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-style" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 aleo-font">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="lore.html">Lore</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Dreamers</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="dreamers.html">Info</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/cali.html">Cali</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/cobalt.html">Cobalt</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/florence.html">Florence</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/nittary.html">Nittary</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/north.html">North</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/serenity.html">Serenity</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/silver.html">Silver</a></li>
-                            <li><a class="dropdown-item" href="individualsheets/wanda.html">Wanda</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="nightmares.html">Nightmares</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="shops.html">Lobby Shops</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="run.html">In A Run</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-current="page" href="itemscards.html">Items & Elevator
-                            Cards</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="events.html">Floor Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="mechanics.html">Future Game Mechanics</a>
-                    </li>
-
-                </ul>
-            </div>
+            </ul>
         </div>
-    </nav>
-
-    <div class="title-div">
-        <h1 class="smaller-title title-header aladin-font">Items & Elevator Cards</h1>
     </div>
+</nav>
 
-    <a class="fixed-link" href="#navigation">Back to Top</a>
+<div class="title-div">
+    <h1 class="smaller-title title-header aladin-font">Items & Elevator Cards</h1>
+</div>
 
-    <div class="aleo-font page-info itemscards-info">
-        <h3>Cards</h3>
-        <p>**Certain card options have upgraded versions, which replace 
-            the original ones after floor 10. Spawn chances are not effected.</p>
+<a class="fixed-link" href="#navigation">Back to Top</a>
+
+<div class="aleo-font page-info itemscards-info">
+    <h3>Cards</h3>
+    <p>**Certain card options have upgraded versions, which replace
+        the original ones after floor 10. Spawn chances are not effected.</p>
+    <ul>
+        <li>Riches</li>
         <ul>
-            <li>Riches</li>
-                <ul><li>+1 Moon Token per machine completion</li></ul>
-            <li>[star card name]</li>
-                <ul><li>x2 Stars per cluster for 3 floors</li></ul>
-                <ul><ul><li>Upgrade: 5 floors</li></ul></ul>
-            <li>[heal card name]</li>
-                <ul><li>Heal all Dreamers by 5 HP</li></ul>
-                <ul><ul><li>Upgrade: 10 HP</li></ul></ul>
-            <li>[ability cooldown card name]</li>
-                <ul><li>Reduce ability cooldown by 2 seconds</li></ul>
-                <ul><ul><li>Upgrade: 5 seconds</li></ul></ul>
-            <li>[skill check card name]</li>
-                <ul><li>Increase skill check time window by 2 seconds</li></ul>
-                <ul><ul><li>Upgrade: 3 seconds</li></ul></ul>
-                <ul><li>Note: Only shows up once for each version. This means 
-                    that the skill check window can only ever be 5 seconds 
-                    longer, unless increased by an ability or a Silver dish.</li></ul>
-            <li>Persuasion</li>
-                    <ul><li>Increase the rarity of items sold in Hautli's Shop</li></ul>
+            <li>+1 Moon Token per machine completion</li>
         </ul>
-
-        <h3>Items</h3>
+        <li>[star card name]</li>
         <ul>
-            <li>Star Glyph</li>
-                <ul><li>Heal 15HP</li></ul>
-            <li>Sun Glyph</li>
-                <ul><li>Heal 30HP</li></ul>
-            <li>["stat"] Glyph</li>
-                <ul><li>+20% boost to given stat</li></ul>
-            <li>Mystery Glyph</li>
-                <ul><li>+30% boost to random stat</li></ul>
-            <li>Alarm Clock</li>
-                <ul><li>Drop stealth to zero and attract nearby Nightmares</li></ul>
-            <li>Glass of Warm Milk</li>
-                <ul><li>Reduce ability cooldown by 10s</li></ul>
-            <li>Cup of Tea</li>
-                <ul><li>Reset ability cooldown</li></ul>
-            <li>Plush Pillow</li>
-                <ul><li>Recover 50% of total stamina</li></ul>
-            <li>Cozy Quilt</li>
-                <ul><li>Recover 50% of total sanity</li></ul>
-            <li>Melatonin Bomb (x2)</li>
-                <ul><li>Drop a bomb that will slow down the Nightmare that touches it</li></ul>
-            <li>Fresh Soap</li>
-                <ul><li>Increase sprint speed by 5% for 20s</li></ul>
-            <li>Clean Towel</li>
-                <ul><li>Increase stealth by 5% for 20s</li></ul>
-            <li>USB Stick</li>
-                <ul><li>Instantly complete a drill</li></ul>
-            <li>Purified Crystal</li>
-                <ul><li>Heal all Dreamers by 10HP</li></ul>
-            <li id="golden_fleece">Golden Fleece</li>
-                <ul><li>+50% to stat of choice (see <a class="inline-link" href="events.html#golden_ram">The Golden Ram floor event</a> for more information)</li></ul>
+            <li>x2 Stars per cluster for 3 floors</li>
         </ul>
-        
-    </div>
-        
-    <div class="footer">
-        <p class="decoration footer-deco">☆</p>
-        <p class="decoration footer-deco">☆</p>
-        <p class="decoration footer-deco">☆</p>
-        <p class="decoration footer-deco">☆</p>
-    </div>
-</body>
+        <ul>
+            <ul>
+                <li>Upgrade: 5 floors</li>
+            </ul>
+        </ul>
+        <li>[heal card name]</li>
+        <ul>
+            <li>Heal all Dreamers by 5 HP</li>
+        </ul>
+        <ul>
+            <ul>
+                <li>Upgrade: 10 HP</li>
+            </ul>
+        </ul>
+        <li>[ability cooldown card name]</li>
+        <ul>
+            <li>Reduce ability cooldown by 2 seconds</li>
+        </ul>
+        <ul>
+            <ul>
+                <li>Upgrade: 5 seconds</li>
+            </ul>
+        </ul>
+        <li>[skill check card name]</li>
+        <ul>
+            <li>Increase skill check time window by 2 seconds</li>
+        </ul>
+        <ul>
+            <ul>
+                <li>Upgrade: 3 seconds</li>
+            </ul>
+        </ul>
+        <ul>
+            <li>Note: Only shows up once for each version. This means
+                that the skill check window can only ever be 5 seconds
+                longer, unless increased by an ability or a Silver dish.</li>
+        </ul>
+        <li>Persuasion</li>
+        <ul>
+            <li>Increase the rarity of items sold in Hautli's Shop</li>
+        </ul>
+    </ul>
 
-</html>
+    <h3>Items</h3>
+    <ul>
+        <li>Star Glyph</li>
+        <ul>
+            <li>Heal 15HP</li>
+        </ul>
+        <li>Sun Glyph</li>
+        <ul>
+            <li>Heal 30HP</li>
+        </ul>
+        <li>["stat"] Glyph</li>
+        <ul>
+            <li>+20% boost to given stat</li>
+        </ul>
+        <li>Mystery Glyph</li>
+        <ul>
+            <li>+30% boost to random stat</li>
+        </ul>
+        <li>Alarm Clock</li>
+        <ul>
+            <li>Drop stealth to zero and attract nearby Nightmares</li>
+        </ul>
+        <li>Glass of Warm Milk</li>
+        <ul>
+            <li>Reduce ability cooldown by 10s</li>
+        </ul>
+        <li>Cup of Tea</li>
+        <ul>
+            <li>Reset ability cooldown</li>
+        </ul>
+        <li>Plush Pillow</li>
+        <ul>
+            <li>Recover 50% of total stamina</li>
+        </ul>
+        <li>Cozy Quilt</li>
+        <ul>
+            <li>Recover 50% of total sanity</li>
+        </ul>
+        <li>Melatonin Bomb (x2)</li>
+        <ul>
+            <li>Drop a bomb that will slow down the Nightmare that touches it</li>
+        </ul>
+        <li>Fresh Soap</li>
+        <ul>
+            <li>Increase sprint speed by 5% for 20s</li>
+        </ul>
+        <li>Clean Towel</li>
+        <ul>
+            <li>Increase stealth by 5% for 20s</li>
+        </ul>
+        <li>USB Stick</li>
+        <ul>
+            <li>Instantly complete a drill</li>
+        </ul>
+        <li>Purified Crystal</li>
+        <ul>
+            <li>Heal all Dreamers by 10HP</li>
+        </ul>
+        <li id="golden_fleece">Golden Fleece</li>
+        <ul>
+            <li>+50% to stat of choice (see <a class="inline-link" href="events.html#golden_ram">The Golden Ram floor
+                    event</a> for more information)</li>
+        </ul>
+    </ul>
+
+</div>
